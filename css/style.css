@@ -1,0 +1,232 @@
+/*fonts start*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=PT+Sans:wght@400;700&display=swap');
+
+font-family: 'Inter', sans-serif;
+font-family: 'PT Sans', sans-serif;
+
+/*common start*/
+body{
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: ##4B5563;
+	line-height: 24px;
+}
+/*common end*/
+header{
+	background-color: #fff;
+	padding: 15px;
+}
+.logo{
+	width: 80px;
+}
+.ntgl:focus {
+	box-shadow: none;
+
+}
+.menu{}
+.menu ul li a{
+	padding: 0 20px !important;
+	color: ##4B5563 !important;
+	line-height: 20px;
+}
+.menu ul li a:hover{
+	color: #FD511A !important;
+}
+.light{
+	width: 15px;
+}
+.light:hover{
+	color: #FFFF00 !important;
+}
+
+.btn_s{
+	margin-left: 10px;
+	width: 150px;
+	height: 35px;
+}
+.btn_c{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #111827;
+	border-radius: 33px;
+	border: 0;
+	color: #4B5563;
+	line-height: 19px;
+
+
+}
+
+.btn_c:hover{
+	background-color: #FD511A;
+	color: #FFFFFF;
+}
+.btn_c:active{
+	background-color: #FD511A !important;
+	color: #FFFFFF !important;	
+}
+
+/*headers end*/
+
+/*banner start*/
+.banner{
+padding: 95px 0;
+
+}
+.b_h1{
+	font-size: 60px;
+	font-weight: 700;
+	color: #111827;
+	line-height: 72px;
+	letter-spacing: -1.2px;
+
+}
+.b_p1{
+}
+
+.l_d{
+margin: 48px 0 2px;
+}
+.link_im{
+}
+.b_img{}
+.b_img img{
+width: 100%;
+border: 8px solid var(#FFF)!important;
+background: var(--gray-200, #E5E7EB);
+
+}
+
+/*banner end*/
+
+/*about start*/
+.about{
+	margim: 95px 0;
+}
+.a_title{
+	margin-top: 50px;
+	padding: 6px 20px;
+	font-size: 16px;
+	border-radius: 20px;
+	background: var(--gray-200, #E5E7EB);
+}
+.a_h2{
+font-weight: 400;
+line-height: 30px;
+}
+.t_item{
+	margin: 50px 0 96px;
+}
+.t_img{
+
+}
+.t_img img{
+width: 400px;
+height: 480px;
+flex-shrink: 0;
+	border: 8px solid var(--gray-50, #F9FAFB);
+background: var(--gray-200, #E5E7EB);
+}
+.s_h1{
+font-size: 30px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: -0.6px;
+}
+.dot{
+	
+}
+.s_p{
+
+}
+
+
+/*about end*/
+
+/*skill start*/
+.s_text{
+margin-top: 16px;
+}
+.p_stext{
+	font-size: 16px;
+
+}
+
+.ic_s{
+	margin: 50px 20px;
+/*	width: 100% !important;*/
+}
+/*skill end*/
+/*experiance start*/
+.e_tt{
+	padding-left: 20px;
+	margin: 80px 0px;
+}
+.p_stext{
+	margin-bottom: 80px;
+}
+.e_h2{
+	margin-left: 40px;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px;
+}
+/*experiance start*/
+
+/*footer top start*/
+.footer_top{
+	padding: 55px 0 55px;
+	background-color: #282531;
+}
+
+
+.ft_details{
+	padding-right: 120px;
+
+}
+.ft_details p{
+	color: #ffffff;
+	line-height: 30px;
+}
+
+.ft_links{}
+.ft_links h2{
+	margin-bottom: 8px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+	line-height: 30px;
+}
+
+.ft_links ul li a{
+	margin-bottom: 8px;
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+
+/*footer top end*/
+
+/*footer bottom*/
+footer{
+	padding: 25px 0 30px;
+	background-color: #282531;
+}
+
+footer p{
+	color: #ffffff;
+	line-height: 30px;
+	
+}
+
+
+footer p a{
+	color: #ffffff;
+}
+
+
+
